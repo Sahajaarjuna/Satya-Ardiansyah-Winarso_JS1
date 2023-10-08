@@ -18,3 +18,41 @@ if (nilai >= 90) {
 } else {
     console.log("Anda mendapat nilai D");
 }
+
+//switch case
+var pilihan = 2;
+
+switch (pilihan) {
+  case 1:
+    console.log("Remidi tanggal 20 Oktober 2023");
+    break;
+  case 2:
+    console.log("Remidi tanggal 31 Oktober 2023");
+    break;
+  case 3:
+    console.log("Remidi tanggal 31 Desember 2023");
+    break;
+  default:
+    console.log("Pilihan tidak valid");
+//for statement
+}
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+
+//while/dowhile
+let angka = 1;
+
+do {
+  console.log(angka);
+  angka++;
+} while (angka <= 5);
+
+//function
+function tambahkan(angka1, angka2) {
+  return angka1 + angka2;
+}
+
+// Contoh pemanggilan fungsi
+var hasil = tambahkan(5, 3);
+console.log(hasil); // Output: 8
